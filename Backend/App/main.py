@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from Api.endpoints import clima
+from App.Api.endpoints import clima
 
 app = FastAPI(title="API de Clima", version="1.0.0")
 
